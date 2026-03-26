@@ -24,3 +24,25 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.plant {
+  display: flex;
+  flex-basis: 200px;
+  flex-flow: column;
+  align-items: center;
+}
